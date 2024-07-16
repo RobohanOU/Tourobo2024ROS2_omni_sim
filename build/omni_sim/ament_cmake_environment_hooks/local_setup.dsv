@@ -1,0 +1,3 @@
+source;share/omni_sim/environment/ament_prefix_path.sh
+source;share/omni_sim/environment/library_path.sh
+source;share/omni_sim/environment/path.sh

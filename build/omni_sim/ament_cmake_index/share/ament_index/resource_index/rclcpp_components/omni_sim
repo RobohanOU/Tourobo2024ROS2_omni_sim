@@ -1,0 +1,2 @@
+OmniRobotController::OmniControl;lib/libomni_control.so
+OmniRobotController::OdomToTf;lib/libodom_tf_converter.so
