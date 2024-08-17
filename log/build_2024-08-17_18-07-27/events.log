@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (omni_sim) JobQueued: {'identifier': 'omni_sim', 'dependencies': OrderedDict()}
+[0.000606] (omni_sim) JobStarted: {'identifier': 'omni_sim'}
+[0.005228] (omni_sim) JobProgress: {'identifier': 'omni_sim', 'progress': 'cmake'}
+[0.005332] (omni_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim'], 'cwd': '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('LANGUAGE', 'ja:en'), ('WARP_HONOR_PS1', '0'), ('USER', 'robohan'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/robohan'), ('OLDPWD', '/home/robohan/Tourobo2024'), ('TERM_PROGRAM_VERSION', 'v0.2024.07.30.08.02.stable_01'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robohan/.nvm/versions/node/v20.13.0/bin'), ('NVM_INC', '/home/robohan/.nvm/versions/node/v20.13.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1640'), ('SYSTEMD_EXEC_PID', '2066'), ('WARP_COMBINED_PROMPT_COMMAND_GRID', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4105'), ('NVM_DIR', '/home/robohan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robohan'), ('JOURNAL_STREAM', '8:9085'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robohan'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/robohan/.local/bin:/home/robohan/.local/share/pnpm:/home/robohan/.nvm/versions/node/v20.13.0/bin:/home/robohan/.cargo/bin:/home/robohan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim/:/home/robohan/apps/'), ('SESSION_MANAGER', 'local/robohan:@/tmp/.ICE-unix/2030,unix/robohan:/tmp/.ICE-unix/2030'), ('INVOCATION_ID', 'b9deeefa2c6f450b8609eb2b44c70845'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('PNPM_HOME', '/home/robohan/.local/share/pnpm'), ('CMAKE_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim:/opt/ros/humble')]), 'shell': False}
+[0.041785] (omni_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.076397] (omni_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.084049] (omni_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099774] (-) TimerEvent: {}
+[0.129565] (omni_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.134694] (omni_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.134850] (omni_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.135158] (omni_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.137170] (omni_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.184624] (omni_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.192734] (omni_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.192913] (omni_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.193490] (omni_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.195511] (omni_sim) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.199946] (-) TimerEvent: {}
+[0.271805] (omni_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300135] (-) TimerEvent: {}
+[0.316102] (omni_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.396576] (omni_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.399169] (omni_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400198] (-) TimerEvent: {}
+[0.404274] (omni_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.411941] (omni_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.423187] (omni_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.463235] (omni_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.464765] (omni_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500398] (-) TimerEvent: {}
+[0.529567] (omni_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.550598] (omni_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.581633] (omni_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.587114] (omni_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600590] (-) TimerEvent: {}
+[0.635463] (omni_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.636158] (omni_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700785] (-) TimerEvent: {}
+[0.801125] (-) TimerEvent: {}
+[0.901441] (-) TimerEvent: {}
+[1.001748] (-) TimerEvent: {}
+[1.017179] (omni_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.029830] (omni_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.029948] (omni_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/include\n'}
+[1.029983] (omni_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.031236] (omni_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.034330] (omni_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.034398] (omni_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.034920] (omni_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.036437] (omni_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.045657] (omni_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.046745] (omni_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim\n'}
+[1.052656] (omni_sim) CommandEnded: {'returncode': 0}
+[1.053101] (omni_sim) JobProgress: {'identifier': 'omni_sim', 'progress': 'build'}
+[1.053525] (omni_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim', '--', '-j12', '-l12'], 'cwd': '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('LANGUAGE', 'ja:en'), ('WARP_HONOR_PS1', '0'), ('USER', 'robohan'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/robohan'), ('OLDPWD', '/home/robohan/Tourobo2024'), ('TERM_PROGRAM_VERSION', 'v0.2024.07.30.08.02.stable_01'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robohan/.nvm/versions/node/v20.13.0/bin'), ('NVM_INC', '/home/robohan/.nvm/versions/node/v20.13.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1640'), ('SYSTEMD_EXEC_PID', '2066'), ('WARP_COMBINED_PROMPT_COMMAND_GRID', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4105'), ('NVM_DIR', '/home/robohan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robohan'), ('JOURNAL_STREAM', '8:9085'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robohan'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/robohan/.local/bin:/home/robohan/.local/share/pnpm:/home/robohan/.nvm/versions/node/v20.13.0/bin:/home/robohan/.cargo/bin:/home/robohan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim/:/home/robohan/apps/'), ('SESSION_MANAGER', 'local/robohan:@/tmp/.ICE-unix/2030,unix/robohan:/tmp/.ICE-unix/2030'), ('INVOCATION_ID', 'b9deeefa2c6f450b8609eb2b44c70845'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('PNPM_HOME', '/home/robohan/.local/share/pnpm'), ('CMAKE_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim:/opt/ros/humble')]), 'shell': False}
+[1.077267] (omni_sim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/omni_control.dir/src/omni_robot_controller.cpp.o\x1b[0m\n'}
+[1.101929] (-) TimerEvent: {}
+[1.202232] (-) TimerEvent: {}
+[1.302551] (-) TimerEvent: {}
+[1.402892] (-) TimerEvent: {}
+[1.503210] (-) TimerEvent: {}
+[1.603542] (-) TimerEvent: {}
+[1.703862] (-) TimerEvent: {}
+[1.804185] (-) TimerEvent: {}
+[1.904509] (-) TimerEvent: {}
+[2.004836] (-) TimerEvent: {}
+[2.105171] (-) TimerEvent: {}
+[2.205496] (-) TimerEvent: {}
+[2.305819] (-) TimerEvent: {}
+[2.406153] (-) TimerEvent: {}
+[2.506484] (-) TimerEvent: {}
+[2.606825] (-) TimerEvent: {}
+[2.707150] (-) TimerEvent: {}
+[2.807481] (-) TimerEvent: {}
+[2.907810] (-) TimerEvent: {}
+[3.008085] (-) TimerEvent: {}
+[3.108429] (-) TimerEvent: {}
+[3.208750] (-) TimerEvent: {}
+[3.309090] (-) TimerEvent: {}
+[3.409419] (-) TimerEvent: {}
+[3.509737] (-) TimerEvent: {}
+[3.609923] (-) TimerEvent: {}
+[3.710252] (-) TimerEvent: {}
+[3.810521] (-) TimerEvent: {}
+[3.910860] (-) TimerEvent: {}
+[4.011097] (-) TimerEvent: {}
+[4.111337] (-) TimerEvent: {}
+[4.211578] (-) TimerEvent: {}
+[4.311817] (-) TimerEvent: {}
+[4.412048] (-) TimerEvent: {}
+[4.512302] (-) TimerEvent: {}
+[4.612536] (-) TimerEvent: {}
+[4.712744] (-) TimerEvent: {}
+[4.813010] (-) TimerEvent: {}
+[4.913232] (-) TimerEvent: {}
+[5.013520] (-) TimerEvent: {}
+[5.113825] (-) TimerEvent: {}
+[5.214158] (-) TimerEvent: {}
+[5.314405] (-) TimerEvent: {}
+[5.414719] (-) TimerEvent: {}
+[5.515043] (-) TimerEvent: {}
+[5.615368] (-) TimerEvent: {}
+[5.715703] (-) TimerEvent: {}
+[5.816030] (-) TimerEvent: {}
+[5.876237] (omni_sim) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libomni_control.so\x1b[0m\n'}
+[5.916134] (-) TimerEvent: {}
+[6.016423] (-) TimerEvent: {}
+[6.116697] (-) TimerEvent: {}
+[6.148926] (omni_sim) StdoutLine: {'line': b'[ 50%] Built target omni_control\n'}
+[6.158010] (omni_sim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/odom_tf_converter.dir/src/odom_tf_converter.cpp.o\x1b[0m\n'}
+[6.216892] (-) TimerEvent: {}
+[6.317209] (-) TimerEvent: {}
+[6.417531] (-) TimerEvent: {}
+[6.517853] (-) TimerEvent: {}
+[6.618179] (-) TimerEvent: {}
+[6.718506] (-) TimerEvent: {}
+[6.818832] (-) TimerEvent: {}
+[6.919163] (-) TimerEvent: {}
+[7.019495] (-) TimerEvent: {}
+[7.119809] (-) TimerEvent: {}
+[7.220140] (-) TimerEvent: {}
+[7.320461] (-) TimerEvent: {}
+[7.420776] (-) TimerEvent: {}
+[7.521103] (-) TimerEvent: {}
+[7.621428] (-) TimerEvent: {}
+[7.721753] (-) TimerEvent: {}
+[7.822083] (-) TimerEvent: {}
+[7.922409] (-) TimerEvent: {}
+[8.022749] (-) TimerEvent: {}
+[8.123085] (-) TimerEvent: {}
+[8.223409] (-) TimerEvent: {}
+[8.323731] (-) TimerEvent: {}
+[8.424060] (-) TimerEvent: {}
+[8.524382] (-) TimerEvent: {}
+[8.624640] (-) TimerEvent: {}
+[8.724961] (-) TimerEvent: {}
+[8.825289] (-) TimerEvent: {}
+[8.925609] (-) TimerEvent: {}
+[9.025929] (-) TimerEvent: {}
+[9.126238] (-) TimerEvent: {}
+[9.226545] (-) TimerEvent: {}
+[9.326856] (-) TimerEvent: {}
+[9.427176] (-) TimerEvent: {}
+[9.527485] (-) TimerEvent: {}
+[9.627794] (-) TimerEvent: {}
+[9.728108] (-) TimerEvent: {}
+[9.828417] (-) TimerEvent: {}
+[9.928737] (-) TimerEvent: {}
+[10.029043] (-) TimerEvent: {}
+[10.129355] (-) TimerEvent: {}
+[10.229668] (-) TimerEvent: {}
+[10.329972] (-) TimerEvent: {}
+[10.430286] (-) TimerEvent: {}
+[10.530615] (-) TimerEvent: {}
+[10.630922] (-) TimerEvent: {}
+[10.731251] (-) TimerEvent: {}
+[10.831571] (-) TimerEvent: {}
+[10.880029] (omni_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libodom_tf_converter.so\x1b[0m\n'}
+[10.931760] (-) TimerEvent: {}
+[11.032090] (-) TimerEvent: {}
+[11.132416] (-) TimerEvent: {}
+[11.145863] (omni_sim) StdoutLine: {'line': b'[100%] Built target odom_tf_converter\n'}
+[11.150267] (omni_sim) CommandEnded: {'returncode': 0}
+[11.170316] (omni_sim) JobProgress: {'identifier': 'omni_sim', 'progress': 'install'}
+[11.173699] (omni_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim'], 'cwd': '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('LANGUAGE', 'ja:en'), ('WARP_HONOR_PS1', '0'), ('USER', 'robohan'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/robohan'), ('OLDPWD', '/home/robohan/Tourobo2024'), ('TERM_PROGRAM_VERSION', 'v0.2024.07.30.08.02.stable_01'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robohan/.nvm/versions/node/v20.13.0/bin'), ('NVM_INC', '/home/robohan/.nvm/versions/node/v20.13.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1640'), ('SYSTEMD_EXEC_PID', '2066'), ('WARP_COMBINED_PROMPT_COMMAND_GRID', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4105'), ('NVM_DIR', '/home/robohan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robohan'), ('JOURNAL_STREAM', '8:9085'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robohan'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/robohan/.local/bin:/home/robohan/.local/share/pnpm:/home/robohan/.nvm/versions/node/v20.13.0/bin:/home/robohan/.cargo/bin:/home/robohan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim/:/home/robohan/apps/'), ('SESSION_MANAGER', 'local/robohan:@/tmp/.ICE-unix/2030,unix/robohan:/tmp/.ICE-unix/2030'), ('INVOCATION_ID', 'b9deeefa2c6f450b8609eb2b44c70845'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('PNPM_HOME', '/home/robohan/.local/share/pnpm'), ('CMAKE_PREFIX_PATH', '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim:/opt/ros/humble')]), 'shell': False}
+[11.177595] (omni_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.178435] (omni_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.178719] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/launch/omni_robot.launch.xml\n'}
+[11.182533] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/config/omni_sim.yaml\n'}
+[11.185465] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/xacro/control_macro.xacro\n'}
+[11.188886] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/xacro/omni_robot.xacro\n'}
+[11.191138] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/xacro/sensor_macro.xacro\n'}
+[11.194086] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/xacro/wheel_macro.xacro\n'}
+[11.197052] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/world/tourobo_field.world\n'}
+[11.201094] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/include/omni_sim/odom_tf_converter.hpp\n'}
+[11.203901] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/include/omni_sim/omni_robot_controller.hpp\n'}
+[11.207937] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/environment/library_path.sh\n'}
+[11.211113] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/environment/library_path.dsv\n'}
+[11.214122] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/lib/libomni_control.so\n'}
+[11.217588] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/lib/libodom_tf_converter.so\n'}
+[11.221527] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/ament_index/resource_index/package_run_dependencies/omni_sim\n'}
+[11.225208] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/ament_index/resource_index/parent_prefix_path/omni_sim\n'}
+[11.228687] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/environment/ament_prefix_path.sh\n'}
+[11.231633] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/environment/ament_prefix_path.dsv\n'}
+[11.232511] (-) TimerEvent: {}
+[11.235848] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/environment/path.sh\n'}
+[11.238978] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/environment/path.dsv\n'}
+[11.241920] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/local_setup.bash\n'}
+[11.244637] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/local_setup.sh\n'}
+[11.247422] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/local_setup.zsh\n'}
+[11.250358] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/local_setup.dsv\n'}
+[11.253160] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/package.dsv\n'}
+[11.256732] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/ament_index/resource_index/packages/omni_sim\n'}
+[11.259146] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/ament_index/resource_index/rclcpp_components/omni_sim\n'}
+[11.262120] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.264911] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.267943] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.270885] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/cmake/omni_simConfig.cmake\n'}
+[11.273367] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/cmake/omni_simConfig-version.cmake\n'}
+[11.276075] (omni_sim) StdoutLine: {'line': b'-- Symlinking: /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/install/omni_sim/share/omni_sim/package.xml\n'}
+[11.279722] (omni_sim) CommandEnded: {'returncode': 0}
+[11.308485] (omni_sim) JobEnded: {'identifier': 'omni_sim', 'rc': 0}
+[11.308859] (-) EventReactorShutdown: {}

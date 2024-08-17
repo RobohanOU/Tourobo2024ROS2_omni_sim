@@ -1,0 +1,4 @@
+Invoking command in '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim': /usr/bin/cmake --build /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim -- -j12 -l12
+Invoked command in '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim' returned '0': /usr/bin/cmake --build /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim -- -j12 -l12
+Invoking command in '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim': /usr/bin/cmake --install /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim
+Invoked command in '/home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim' returned '0': /usr/bin/cmake --install /home/robohan/Tourobo2024/Tourobo2024ROS2_omni_sim/build/omni_sim

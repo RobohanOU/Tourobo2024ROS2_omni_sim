@@ -20,7 +20,8 @@ namespace OmniRobotController{
 		geometry_msgs::msg::TransformStamped tf_msg;
 
 		tf_msg.header = msg_.header;
-		tf_msg.child_frame_id = msg_.child_frame_id;
+		tf_msg.header.frame_id = "odom";
+		tf_msg.child_frame_id = "base_link";
 
 		tf_msg.transform.translation.x = msg_.pose.pose.position.x;
 		tf_msg.transform.translation.y = msg_.pose.pose.position.y;
