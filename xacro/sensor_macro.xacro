@@ -36,7 +36,7 @@
 			<parent link="${parent}"/>
 			<child link="${prefix}_link"/>
 		</joint>
-		<link name="${prefix}_link">
+        <link name="${prefix}_link">
 			<visual>
 				<geometry>
 					<cylinder radius="0.04" length="0.02"/>
@@ -44,7 +44,7 @@
 			</visual>
 		</link>
 		<gazebo reference="${prefix}_link">
-			<sensor name="${prefix}_link" type="ray">
+            <sensor name="${prefix}_link" type="ray">
 				<topic>scan</topic>
 				<ignition_frame_id>${prefix}_link</ignition_frame_id>
 				<update_rate>5</update_rate>
@@ -76,7 +76,7 @@
 						<remapping>~/out:=scan</remapping>
 					</ros>
 					<output_type>sensor_msgs/LaserScan</output_type>
-					<frame_name>${prefix}_link</frame_name>
+                    <frame_name>laser</frame_name>
 				</plugin>
 			</sensor>
 		</gazebo>

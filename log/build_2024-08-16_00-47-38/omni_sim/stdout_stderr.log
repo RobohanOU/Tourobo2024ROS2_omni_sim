@@ -1,0 +1,21 @@
+[ 50%] Built target omni_control
+[35m[1mConsolidate compiler generated dependencies of target odom_tf_converter[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/odom_tf_converter.dir/src/odom_tf_converter.cpp.o[0m
+[01m[K/home/legit0108/Robohan/Tourobo2024ROS2_omni_sim/src/odom_tf_converter.cpp:[m[K In member function ‘[01m[Kvoid OmniRobotController::OdomToTf::odomCallback(const Odometry&)[m[K’:
+[01m[K/home/legit0108/Robohan/Tourobo2024ROS2_omni_sim/src/odom_tf_converter.cpp:22:33:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_header_type[m[K’ {aka ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >[m[K’} and ‘[01m[Kconst char [5][m[K’)
+   22 |                 tf_msg.header = [01;31m[K"odom"[m[K;
+      |                                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:42[m[K,
+                 from [01m[K/home/legit0108/Robohan/Tourobo2024ROS2_omni_sim/include/omni_sim/odom_tf_converter.hpp:5[m[K,
+                 from [01m[K/home/legit0108/Robohan/Tourobo2024ROS2_omni_sim/src/odom_tf_converter.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >& std_msgs::msg::Header_<std::allocator<void> >::operator=(const std_msgs::msg::Header_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KHeader_[m[K
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [5][m[K’ to ‘[01m[Kconst std_msgs::msg::Header_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >& std_msgs::msg::Header_<std::allocator<void> >::operator=(std_msgs::msg::Header_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [5][m[K’ to ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/odom_tf_converter.dir/build.make:76: CMakeFiles/odom_tf_converter.dir/src/odom_tf_converter.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/odom_tf_converter.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

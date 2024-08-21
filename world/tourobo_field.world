@@ -14,7 +14,7 @@
       <name>tourobo_field</name>
       <uri>model://tourobo_field</uri>
       <static>true</static>
-      <pose>-1.0 -1.0 0 1.5708 0 0</pose>
+      <pose>-5.5 -0.3 0 1.5708 0 0</pose>
     </include>
 
   </world>

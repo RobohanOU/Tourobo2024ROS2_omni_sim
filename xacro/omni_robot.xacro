@@ -9,13 +9,13 @@
 
 	<joint name="base_joint" type="fixed">
 		<parent link="base_footprint"/>
-		<child link="base_link"/>
+		<child link="base_frame"/>
 	</joint>
 
-	<link name="base_link"/>
+	<link name="base_frame"/>
 
 	<joint name="body_joint" type="fixed">
-		<parent link="base_link"/>
+		<parent link="base_frame"/>
 		<child link="body_link"/>
 		<origin xyz="0 0 0.15" rpy="0 0 0"/>
 	</joint>
@@ -38,7 +38,7 @@
 	</link>
 
 	<xacro:imu_macro prefix="imu" parent="body_link" xyz="0 0 0" rpy="0 0 0"/>
-	<xacro:lidar_macro prefix="laser" parent="body_link" xyz="0 0.2 -0.10" rpy="0 0 0"/>
+	<xacro:lidar_macro prefix="laser" parent="body_link" xyz="0 0.2 -0.10" rpy="3.14159265 0 1.570796"/>
 
 	<xacro:wheel_macro prefix="fr_wheel" parent="body_link" xyz="0.2 0.2 -0.06"/>
 	<xacro:wheel_macro prefix="fl_wheel" parent="body_link" xyz="-0.2 0.2 -0.06"/>
