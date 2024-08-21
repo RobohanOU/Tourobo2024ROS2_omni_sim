@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/legit0108/Robohan/Tourobo2024ROS2_omni_sim/build/omni_sim/libomni_control.so" "/home/legit0108/Robohan/Tourobo2024ROS2_omni_sim/build/omni_sim/libodom_tf_converter.so" "TARGETS" "omni_control" "odom_tf_converter" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
